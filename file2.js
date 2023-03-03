@@ -12,9 +12,11 @@ var counter=1
 
 function start(){
     var btn = document.getElementById("start")
+    // the player will clicks only one time on start
     btn.disabled=true
     getInputNumbers()   
-    // the program will only display 10 random numbers
+
+    // generate 10 random numbers
     getRandomNumbers()
     
     var nbCorr= verif(array,arrayRandomNumb)
@@ -35,6 +37,8 @@ function start(){
 
 
 }
+
+// to get the numbers that the player displayed
 function getInputNumbers(){
     var items=document.querySelectorAll("input.number")
     array=[]
@@ -42,6 +46,7 @@ function getInputNumbers(){
             array.push(items[i].value)
         }    
 }
+
 function getRandomNumbers(){
     arrayRandomNumb=[]
     if(counter<11){
@@ -57,6 +62,7 @@ function getRandomNumbers(){
     }
     
 }
+
 // the function verif will loop into the two arrays and count the guessed numbers
 function verif(arr1,arr2){
     var count=0

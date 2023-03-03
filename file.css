@@ -5,14 +5,14 @@ body, html {
     background-repeat: no-repeat;
     background-attachment: fixed;
 
-  }
+    }
 
   #title1{
-        padding: 60px;
-        text-align: center;
-        color: rgb(170, 208, 238);
-        font-size: 60px;
-  }
+    padding: 60px;
+    text-align: center;
+    color: rgb(170, 208, 238);
+    font-size: 60px;
+    }
 
   .box{
     width:100px;
@@ -25,30 +25,32 @@ body, html {
     }
 
     .btn{
-        width:100px;
-        text-align: center;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
+    width:100px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     }
+
     .user-box input {
-        width: 20%;
-        padding: 10px 0;
-        font-size: 16px;
-        color: #fff;
-        margin-bottom: 30px;
-        border: none;
-        border-bottom: 1px solid #fff;
-        outline: none;
-        background: transparent;
-      }
+    width: 20%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+    }
    
-      .user-box input:focus ~ label,user-box input:valid ~ label {
-        top: -20px;
-        left: 0;
-        color: #03e9f4;
-        font-size: 12px;
-      }  
+    .user-box input:focus ~ label,user-box input:valid ~ label {
+    top: -20px;
+    left: 0;
+    color: #03e9f4;
+    font-size: 12px;
+    }  
+    
       ::placeholder {
         text-align: center;
         }    
