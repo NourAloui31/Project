@@ -1,0 +1,148 @@
+body, html {
+    height: 100%;
+    background-image: url("https://www.getlucky.com/go/wp-content/uploads/2020/01/bingo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+  }
+
+  #title { 
+        padding: 10px;
+        text-align:center;
+        color: rgb(170, 208, 238);
+        font-size: 40px;
+  }
+
+  #value-display {
+    padding: 10px;
+    text-align:center;
+    color: rgb(170, 208, 238);
+    font-size: 40px;
+  }
+  
+  .number {
+    
+	width: 5%;
+	background: rgb(170, 208, 238);
+	color: #fff;
+	padding: 10px 0;
+	margin: 12px;
+	font-size: 30px;
+	cursor:default;
+	outline:invert;
+	transition: 0s 0.1s;
+    text-align: center;
+}
+
+button {
+    margin: 20px;
+  }
+  .custom-btn {
+    width: 130px;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+  }
+  .btn-16 {
+    border: none;
+    color: #ffffff;
+  }
+  .btn-16:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    direction: rtl;
+    z-index: -1;
+    box-shadow:
+     -7px -7px 20px 0px #fff9,
+     -4px -4px 5px 0px #fff9,
+     7px 7px 20px 0px #0002,
+     4px 4px 5px 0px #0001;
+    transition: all 0.3s ease;
+  }
+  .btn-16:hover {
+    color: #ffffff;
+    font-weight: bold;
+
+  }
+  .btn-16:hover:after {
+    left: auto;
+    right: 0;
+    width: 100%;
+  }
+  .btn-16:active {
+    top: 2px;
+  }
+  .nb{
+    text-align: center;
+  }
+
+  .randNumb{    
+  width: 50px;
+  height: 50px;
+  margin: 50px auto;
+  background: rgba(197, 219, 236, 0.489);
+  text-align: center;
+  color: #92b9cc;
+  font-size: 2.5em;
+  vertical-align: middle;
+  display: inline-block;
+  margin: 10px;
+  
+      
+  }
+
+  .correctNumb{    
+  width: 50px;
+  height: 50px;
+  margin: 50px auto;
+  background: rgba(27, 163, 43, 0.477);
+  text-align: center;
+  color: #92b9cc;
+  font-size: 2.5em;
+  vertical-align: middle;
+  display: inline-block;
+  margin: 10px;
+  
+      
+  }
+
+.Bingo{
+        padding: 30px;
+        text-align:center;
+        color: rgb(14, 113, 44);
+        font-size: 40px;
+        background-color: #abd4df3b;
+}
+
+.Lost{
+        padding: 30px;
+        text-align:center;
+        color: red;
+        font-size: 40px;
+        background-color: #abd4df3b;
+
+}
+
+a:link{
+        padding: 10px;
+        text-align:center;
+        font-size: 25px;
+        background-color: #abd4df3b;
+}

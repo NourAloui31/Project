@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BINGO !</title>
+    <link rel="stylesheet" href="game.css">  
+    <script src='https://code.jquery.com/jquery-2.2.4.js'></script>
+
+</head>
+<body>
+
+   <em> <h1  id="value-display"></h1></em>
+        <h2 id="title"><em> Let's Start Playing</em></h2>
+        <script>
+                // Get the value of the "value" query parameter
+            const queryString = window.location.search;
+            const urlParams = new URLSearchParams(queryString);
+            const valeur = urlParams.get('valeur');
+
+
+            // Display the value in the "value-display" div
+            const valueDisplay = document.getElementById('value-display');
+            valueDisplay.textContent = `Hello ${valeur} !`;
+        </script>
+
+        <h3 style="text-align: center; color: antiquewhite;">Please Enter five numbers</h3>
+        <div style="text-align: center;">
+        <input type="number" class="number" min="1" max="20" step="1">
+        <input type="number" class="number" min="1" max="20" step="1">
+        <input type="number" class="number" min="1" max="20" step="1">
+        <input type="number" class="number" min="1" max="20" step="1">
+        <input type="number" class="number" min="1" max="20" step="1">
+       
+        </div>
+
+        <div style="text-align: center;">
+
+            <button id="start" class="custom-btn btn-16" onclick="start()">START</button>
+        </div>
+        <div id="randomNumbers" class="nb"></div>
+        <div id="correctValue" class="nb"></div>
+        <div id ="result"></div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div  id ="btn_replay" style="text-align: center; " ;>
+        </div>
+       
+  
+    <script type="text/javascript" src="file2.js"></script>
+</body>
+</html>

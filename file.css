@@ -1,0 +1,105 @@
+body, html {
+    height: 100%;
+    background-image: url("https://www.getlucky.com/go/wp-content/uploads/2020/01/bingo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+  }
+
+  #title1{
+        padding: 60px;
+        text-align: center;
+        color: rgb(170, 208, 238);
+        font-size: 60px;
+  }
+
+  .box{
+    width:100px;
+    font-size:150%;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    }
+
+    .btn{
+        width:100px;
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .user-box input {
+        width: 20%;
+        padding: 10px 0;
+        font-size: 16px;
+        color: #fff;
+        margin-bottom: 30px;
+        border: none;
+        border-bottom: 1px solid #fff;
+        outline: none;
+        background: transparent;
+      }
+   
+      .user-box input:focus ~ label,user-box input:valid ~ label {
+        top: -20px;
+        left: 0;
+        color: #03e9f4;
+        font-size: 12px;
+      }  
+      ::placeholder {
+        text-align: center;
+        }    
+        .btnn-15 {
+            border: none;
+            color: #ffffff;
+          }
+          .btnn-15:after {
+            position: absolute;
+            content: "";
+            width: 0;
+            height: 100%;
+            top: 0;
+            left: 0;
+            direction: rtl;
+            z-index: -1;
+            box-shadow:
+             -7px -7px 20px 0px #fff9,
+             -4px -4px 5px 0px #fff9,
+             7px 7px 20px 0px #0002,
+             4px 4px 5px 0px #0001;
+            transition: all 0.3s ease;
+          }
+          .btnn-15:hover {
+            color: #ffffff;
+            font-weight: bold;
+        
+          }
+          .btnn-15:hover:after {
+            left: auto;
+            right: 0;
+            width: 100%;
+          }
+          .btnn-15:active {
+            top: 2px;
+          }
+          .custom-btnn {
+            width: 130px;
+            height: 40px;
+            color: #fff;
+            border-radius: 5px;
+            padding: 10px 25px;
+            font-family: 'Lato', sans-serif;
+            font-weight: 500;
+            background: transparent;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            position: relative;
+            display: inline-block;
+             box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+             7px 7px 20px 0px rgba(0,0,0,.1),
+             4px 4px 5px 0px rgba(0,0,0,.1);
+            outline: none;
+          }
